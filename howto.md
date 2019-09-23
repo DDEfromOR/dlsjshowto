@@ -14,7 +14,7 @@ Starting with a JS sample bot:
 
 	`let server = restify.createServer({ handleUpgrades: true });`
 	
-- Define the BotFrameworkStreamingAdapter and add a GET endpoint to index.ts with the following code: 
+- Still in index.ts define the BotFrameworkStreamingAdapter and add a GET endpoint to index.ts with the following code: 
 
 ```
 const { BotFrameworkStreamingAdapter } = require('botbuilder-streaming-extensions');
